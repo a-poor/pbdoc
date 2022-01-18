@@ -1,0 +1,58 @@
+{
+  "Name": "GreeterService",
+  "Description": "",
+  "Methods": [
+    {
+      "Name": "SayHello",
+      "Description": "",
+      "Input": {
+        "Type": "SayHelloRequest",
+        "Description": "",
+        "Fields": [
+          {
+            "Name": "name",
+            "Type": "string",
+            "Description": ""
+          }
+        ]
+      },
+      "Output": {
+        "Type": "SayHelloResponse",
+        "Description": "",
+        "Fields": [
+          {
+            "Name": "Message",
+            "Type": "string",
+            "Description": ""
+          }
+        ]
+      }
+    },
+    {
+      "Name": "SayWassup",
+      "Description": "",
+      "Input": {
+        "Type": "SayWassupRequest",
+        "Description": "",
+        "Fields": [
+          {
+            "Name": "name",
+            "Type": "string",
+            "Description": ""
+          }
+        ]
+      },
+      "Output": {
+        "Type": "SayWassupResponse",
+        "Description": "",
+        "Fields": [
+          {
+            "Name": "message",
+            "Type": "string",
+            "Description": ""
+          }
+        ]
+      }
+    }
+  ]
+}
