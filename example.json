@@ -4,33 +4,33 @@
   "Methods": [
     {
       "Name": "SayHello",
-      "Description": "",
+      "Description": "The SayHello method returns a greeting.",
       "Input": {
         "Type": "SayHelloRequest",
-        "Description": "",
+        "Description": "The request parameters",
         "Fields": [
           {
             "Name": "name",
             "Type": "string",
-            "Description": ""
+            "Description": "The user's name."
           }
         ]
       },
       "Output": {
         "Type": "SayHelloResponse",
-        "Description": "",
+        "Description": "The response returned by the SayHello RPC.",
         "Fields": [
           {
-            "Name": "Message",
+            "Name": "message",
             "Type": "string",
-            "Description": ""
+            "Description": "The message returned from the service."
           }
         ]
       }
     },
     {
       "Name": "SayWassup",
-      "Description": "",
+      "Description": "The SayWassup RPC is a test method that returns a message.",
       "Input": {
         "Type": "SayWassupRequest",
         "Description": "",
@@ -38,7 +38,7 @@
           {
             "Name": "name",
             "Type": "string",
-            "Description": ""
+            "Description": "The user's name."
           }
         ]
       },
@@ -49,7 +49,7 @@
           {
             "Name": "message",
             "Type": "string",
-            "Description": ""
+            "Description": "The message returned from the service."
           }
         ]
       }
